@@ -28,5 +28,5 @@ end
 
 
 map_to_square(source_array)
-
+  puts "DONE"
 end

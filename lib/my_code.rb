@@ -20,6 +20,10 @@ def map_to_double(source_array)
   new_array = []
   
   source_array.each do |element|
+    new_array.push(element*2)
+  end
+  
+  new_array
 end
 
 

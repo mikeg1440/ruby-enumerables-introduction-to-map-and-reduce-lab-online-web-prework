@@ -1,5 +1,5 @@
 
-
+# method converts positive #'s to negative and vice versa
 def map_to_negativize(source_array)
   
   new_list = []
@@ -11,7 +11,18 @@ def map_to_negativize(source_array)
   new_list
 end
 
-
+# method that returns array as is
 def map_to_no_change(source_array)
   source_array
+end
+
+def map_to_double(source_array)
+  new_array = []
+  
+  source_array.each do |element|
+end
+
+
+map_to_square(source_array)
+
 end

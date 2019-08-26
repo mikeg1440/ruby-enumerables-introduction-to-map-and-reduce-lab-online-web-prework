@@ -4,7 +4,7 @@ def map_to_negativize(source_array)
   
   new_list = []
   
-  num_list.each do |num|
+  source_array.each do |num|
     new_list.push(-num)
   end
   

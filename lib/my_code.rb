@@ -27,6 +27,6 @@ def map_to_double(source_array)
 end
 
 
-map_to_square(source_array)
+def map_to_square(source_array)
   puts "DONE"
 end
